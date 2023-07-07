@@ -13,6 +13,7 @@ export const TabItem: ParentComponent<{
         'border-opacity-90 dark:border-opacity-90 hover:border-opacity-100': props.active || false,
         'border-opacity-0 dark:border-opacity-0 hover:border-opacity-10 dark:hover:border-opacity-10': !props.active,
       }}
+      role="button"
     >
       {props.children}
     </li>
